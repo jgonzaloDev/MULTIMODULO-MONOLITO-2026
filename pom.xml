@@ -21,10 +21,22 @@
     </properties>
 
     <modules>
+        <module>lib_opentelemetry</module>
         <module>msvc_customers</module>
         <module>msvc_orders</module>
         <module>app</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-bom</artifactId>
+                <version>1.38.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

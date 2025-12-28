@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib_opentelemetry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msvc_customers/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msvc_orders/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

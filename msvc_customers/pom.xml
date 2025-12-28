@@ -64,6 +64,11 @@
             <version>2.21.0-alpha</version>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>com.dojo</groupId>
+            <artifactId>lib_opentelemetry</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

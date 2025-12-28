@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/msvc_orders/pom.xml" />
         <option value="$PROJECT_DIR$/boot-app/pom.xml" />
         <option value="$PROJECT_DIR$/app/pom.xml" />
+        <option value="$PROJECT_DIR$/lib_opentelemetry/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
