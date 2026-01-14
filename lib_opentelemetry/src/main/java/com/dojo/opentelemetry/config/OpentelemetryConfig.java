@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Configuration;
 public class OpentelemetryConfig {
     @Value("${otel.service.name:monolito}")
     private String serviceName;
-    @Value("${otel.exporter.otlp.endpoint:http://localhost:4317}")
+    @Value("${otel.exporter.otlp.endpoint:http://10.0.2.4:4317}")
     private String otlpEndpoint;
 
     @Bean
