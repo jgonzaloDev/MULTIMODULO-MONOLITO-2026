@@ -10,7 +10,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Entity
-@Table(name="customers")
+@Table(name="customers", schema="dbo")
 @Data
 public class Customer {
 	@Id
