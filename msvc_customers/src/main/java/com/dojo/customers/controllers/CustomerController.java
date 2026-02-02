@@ -19,6 +19,7 @@ import com.dojo.customers.services.CustomerService;
 
 @RestController
 @RequestMapping("/customer")
+@CrossOrigin(origins = "*")
 public class CustomerController {
 	private Logger logger = LoggerFactory.getLogger(CustomerController.class);
 	private CustomerService service;
