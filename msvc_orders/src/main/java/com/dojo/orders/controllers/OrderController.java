@@ -18,6 +18,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/order")
+@CrossOrigin(origins = "*")
 public class OrderController {
     private Logger logger = LoggerFactory.getLogger(OrderController.class);
     private OrderService orderService;
